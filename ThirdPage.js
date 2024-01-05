@@ -134,7 +134,7 @@ let TimeOutExam = () => {
     window.location = './TimeOut.html';
 }
 
-fetch('../JS/BackEndData.json').then(res => {
+fetch('BackEndData.json').then(res => {
     return res.json();
 }).then(data => {
     StartExam(data);
