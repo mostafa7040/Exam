@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Page</title>
+    <link rel="stylesheet" href="ThirdPage.css">
+    <script src="/Jquery.js"></script>
+    <script src="https://kit.fontawesome.com/3bb01edb3e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+</head>
+
+<body>
+    <div id="Exam_Main_Contanier">
+
+        <div id="Exam_items">
+            <div id="Progress_Timer">
+                <progress max="120" value="0" id="Time_progress_bar"></progress>
+                <lord-icon src="https://cdn.lordicon.com/lzgqzxrq.json" trigger="loop" delay="2000"
+                    style="width:7rem;height:7rem">
+                </lord-icon>
+
+
+            </div>
+            <div id="Exam_Wrapper"></div>
+
+            <div id="Prev_Next_Container">
+                <button id="Prev_button"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="Curr_Question">Current</button>
+                <button id="Next_button"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div id="Mark_Submit_container">
+                <button id="Submit_Button">Submit</button>
+                <button id="Mark_button">
+                    <lord-icon src="https://cdn.lordicon.com/hntobqbr.json" trigger="in" delay="200" state="in-reveal"
+                        style="width:3rem;height:3rem">
+                    </lord-icon>
+                </button>
+            </div>
+        </div>
+
+        <section id="Marked_questions_contatiner">
+            <div class="Marked_questions_contatiner_h2">
+                <h2>Marked Questions<i class="fa-solid fa-bookmark"></i></h2>
+            </div>
+            <div id="Marked_questions"></div>
+        </section>
+    </div>
+
+    <script src="/ThirdPage.js"></script>
+
+</body>
+
+</html>
