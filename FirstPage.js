@@ -54,5 +54,5 @@ let SaveUser = () => {
 $('#Registration_Button').click(function (e) {
     e.preventDefault();
     ValidateAll('active');
-    IsFormValid() ? (SaveUser(), window.location = 'ThirdPage.html') : null
+    IsFormValid() ? (SaveUser(), window.location = 'Sec.html') : null
 })
